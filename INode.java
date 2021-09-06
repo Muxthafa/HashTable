@@ -1,5 +1,9 @@
 package hashtable;
 
+/**
+ * Interface for creating a node 
+ * @param k of generic type
+ */
 public interface INode<k> {
 	k getKey();
 	void setKey(k key);

@@ -1,5 +1,10 @@
 package hashtable;
 
+/**
+ * MyMapNode class contains getter and setter methods
+ * which set the key value pair and next value
+ */
+
 public class MyMapNode<k,v> implements INode<k> {
 	k key;
 	v value;
